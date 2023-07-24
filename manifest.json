@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Register chemcals",
+    "version": "1.0",
+    "permissions": [
+        "activeTab",
+        "https://www.googleapis.com/"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://yakuhin.jimu.kyutech.ac.jp/*"],
+            "js": ["content.js"]
+        }
+    ]
+}
